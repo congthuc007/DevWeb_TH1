@@ -136,6 +136,7 @@ form textarea {
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #e0e0e0;
+    resize: none;
 }
 
 form select{
