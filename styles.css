@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+header {
+    background-color: #b22222;
+    color: #fff;
+}
+
+.promo-banner {
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    height: 65px;
+    padding: 5px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: flex-end;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.nav-links a:hover {
+    background-color: #d2691e;
+}
+
+.products {
+    padding: 30px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    width: 22%;
+    min-width: 240px;
+    border: 1px solid #b22222;
+    padding: 20px;
+    text-align: start;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product:hover{
+    box-shadow: 0px 0px 3px 3px #d2691e5c;
+    transform: translateY(-15px); 
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.product h3 {
+    font-size: 18px;
+}
+
+.product p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.product .price {
+    font-size: 16px;
+    font-weight: 800;
+    color: #b22222;
+}
+
+.contact {
+    padding: 40px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+form {
+    background-color: #f8d7da;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #e0e0e0;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: start;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+}
+
+form select{
+    color: #b22222;
+}
+
+form button {
+    background-color: #b22222;
+    width: 100%;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #b22222;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+
+#name{
+    transition: transform 0.2s ease-in-out;
+}
+
+
+#name:hover{
+    box-shadow: 0px 0px 3px 3px #d2691e5c;
+    transform: translateY(160px); 
+}
+
+#phone{
+    transition: transform 0.2s ease-in-out;
+}
+
+
+#phone:hover{
+    box-shadow: 0px 0px 3px 3px #d2691e5c;
+    transform: translateY(-80px); 
+}
+
+#store{
+    transition: transform 0.2s ease-in-out;
+}
+
+
+#store:hover{
+    box-shadow: 0px 0px 3px 3px #d2691e5c;
+    transform: translateY(-160px); 
+}
